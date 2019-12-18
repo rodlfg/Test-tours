@@ -45,21 +45,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <div class="resp-container embed-responsive-16by9">
       <iframe class="resp-iframe" src="https://tour.nocknock.io/show/5a6d765bbf7318aeec9a6e78">
       </iframe>
-      resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    }
-    resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
     </div>
-    
+
   </div>
 </div>
 
@@ -73,8 +60,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <h1>Address of house</h1>
     <h5 class="w1-padding-32">Description of home or relevant informatio.</h5>
   </div>
-  <iframe src="https://tour.nocknock.io/show/5a6d765bbf7318aeec9a6e78">
+  <div class="resp-container embed-responsive-16by9">
+  <iframe class="resp-iframe" src="https://tour.nocknock.io/show/5a6d765bbf7318aeec9a6e78">
   </iframe>
+</div>
     </div>
   </div>
 </div>
@@ -84,7 +73,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -98,7 +87,7 @@ function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-  } else { 
+  } else {
     x.className = x.className.replace(" w3-show", "");
   }
 }
